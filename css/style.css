@@ -231,6 +231,16 @@ main{
     .f-direction{
         flex-direction: column;
     }
+    .txt2{
+        font-size: 14px;
+        }
+    .cpyright{
+        font-size: 14px;
+    }
+    footer{
+        text-align: center;
+        height: 100px;
+    }
   }
   @media screen and (max-width:480px) {
     body{
