@@ -75,42 +75,7 @@ img{
 .col-12{
     width:100%;
 }
-.col-1-sm{
-    width: calc((100% / 12)*1);
-}
-.col-2-sm{
-    width: calc((100% / 12)*2);
-}
-.col-3-sm{
-    width: calc((100% / 12)*3);
-}
-.col-4-sm{
-    width: calc((100% / 12)*4);
-}
-.col-5-sm{
-    width: calc((100% / 12)*5);
-}
-.col-6-sm{
-    width: calc((100% / 12)*6);
-}
-.col-7-sm{
-    width: calc((100% / 12)*7);
-}
-.col-8-sm{
-    width: calc((100% / 12)*8);
-}
-.col-9-sm{
-    width: calc((100% / 12)*9);
-}
-.col-10-sm{
-    width: calc((100% / 12)*10);
-}
-.col-11-sm{
-    width: calc((100% / 12)*11);
-}
-.col-12-sm{
-    width:100%;
-}
+
 
 .debug{
     border: 1px dashed black;
@@ -190,9 +155,7 @@ main{
   li{
     margin: 0.5rem;
   }
-  .notes{
-    background-color: white;
-  }
+  
   div.col-4{
     background-color: white;
   }
@@ -233,7 +196,8 @@ main{
     padding: 0.5rem;
   }
 
-  @media screen (max-width:768px) {
+  @media screen and (max-width:1024px) {
+    
     
     body{
         padding: 15px;
@@ -241,12 +205,31 @@ main{
     header h1{
         font-size:24px;
     }
+    .sweet{
+        font-size: 18px;
+    }
     .cake{
         font-size: 24px;
     }
+    
     .ricept{
-        flex-direction: column;
+        display: flex;
+        flex-direction:row;
         align-items: center;
         font-size: 16px;
     }
+    .ytb{
+        width: 100%;
+    }
+    .txt{
+        display: none;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+    
+    .f-direction{
+        flex-direction: column;
+    }
   }
+  
