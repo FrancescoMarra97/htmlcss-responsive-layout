@@ -169,3 +169,16 @@ main{
   .banner{
     margin-top: 2rem;
   }
+  .description{
+    margin: 1rem;
+  }
+  
+  .m-top{
+    margin-top: 1rem;
+  }
+  .w-30{
+    width: 30%;
+  }
+  .dessert{
+    display: inline;
+  }
