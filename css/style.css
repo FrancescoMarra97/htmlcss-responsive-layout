@@ -120,6 +120,16 @@ main{
     border-radius: 10px;
     font-size: 18px;
   }
+
+  .bbl3{
+    background-color: white;
+    margin: 0.5rem;
+    padding: 0.6rem 1rem;
+    border-radius: 20px;
+    font-size: 14px;
+    color: black;
+    box-shadow: 0px 0.5px grey;
+  }
   div.d-flex.justify-content-between.kcal{
     align-items: center;
     background-color: #e0ddf0;
@@ -131,4 +141,22 @@ main{
     font-size: 20px;
     color: #ff9614;
   }
-  
+  ul{
+    list-style: none;
+    margin: 1rem 3rem;
+  }
+  li{
+    margin: 0.5rem;
+  }
+  .notes{
+    background-color: white;
+  }
+  div.col-4{
+    background-color: white;
+  }
+  .socials{
+    margin-top: 2.5rem;
+  }
+  a{
+    text-decoration: none;
+  }
