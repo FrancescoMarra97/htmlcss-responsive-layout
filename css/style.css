@@ -232,4 +232,42 @@ main{
         flex-direction: column;
     }
   }
-  
+  @media screen and (max-width:480px) {
+    body{
+        padding:10px;
+    }
+
+    header h1{
+        text-align: center;
+        font-size: 24px;
+    }
+    .sweet{
+        font-size: 10px;
+        text-align: left;
+    }
+    .ricept{
+        display: flex;
+        flex-direction:column;
+        align-items:flex-start;
+        font-size: 14px;
+    }
+    .banner{
+        display: none;
+    }
+    .w-50{
+        width: 50%;
+        text-align: center;
+    }
+    .legend{
+        vertical-align: middle;
+    }
+    .txt2{
+    font-size: 10px;
+    }
+.cpyright{
+    font-size: 10px;
+}
+footer{
+    text-align: center;
+}
+}
