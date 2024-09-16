@@ -11,6 +11,11 @@ img{
 .w-80{
     width: 80%;
 }
+.container-lg{
+    width: 100%;
+    margin:auto;
+    height: 80px;
+}
 .container{
     width: 80%;
     max-width: 1400px;
@@ -179,6 +184,15 @@ main{
   .w-30{
     width: 30%;
   }
-  .dessert{
-    display: inline;
+  .legend{
+    margin-left: 0.5rem;
+  }
+  .cpyright{
+    color: white;
+    padding: 0.5rem;
+  }
+    footer a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem;
   }
